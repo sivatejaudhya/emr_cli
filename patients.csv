@@ -1,0 +1,4 @@
+id,name,age,gender,phone,meds,appointments,notes,created_at,updated_at
+1,Asha Kumari,29,F,9876501234,Paracetamol,2025-08-20:OPD,Diabetic followup,2025-08-01T10:00:00,2025-08-01T10:00:00
+2,Ravi Kumar,45,M,8765412345,Atorvastatin,2025-08-21:Cardio,Routine check,2025-08-02T11:00:00,2025-08-02T11:00:00
+3,Alice Smith,28,F,9876543210,,,,2025-08-30T10:03:12.782147,2025-08-30T10:03:12.782147

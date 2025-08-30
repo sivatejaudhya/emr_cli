@@ -1,0 +1,29 @@
+[MASTER]
+# Allow loading of files without specifying encoding
+ignore-missing-imports=yes
+extension-pkg-whitelist=
+init-hook=''
+
+[MESSAGES CONTROL]
+# Disable the specific warnings/errors seen in your screenshot
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    C0301,  # line-too-long
+    W0613,  # unused-argument
+    W0621,  # redefined-outer-name
+    W0404,  # reimported
+    W0718,  # broad-exception-caught
+    W1514,  # unspecified-encoding
+    C0410,  # multiple-imports
+    C0415,  # import-outside-toplevel
+    W1510   # subprocess-run-check
+
+[FORMAT]
+# Max line length (adjust if needed)
+max-line-length=120
+
+[TYPECHECK]
+# Ignore missing modules (helpful when using CSV, etc.)
+ignore-missing-imports=yes
